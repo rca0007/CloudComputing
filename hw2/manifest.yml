@@ -1,0 +1,7 @@
+applications:
+- name: comp7970-ra
+  command: npm start
+  memory: 256M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
